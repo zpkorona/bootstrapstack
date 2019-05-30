@@ -35,14 +35,15 @@
 
 <body>
 
-  <header class="container-fluid">
-    <h1>Składnica <span class="b-logo">B</span>ootstrap 4</h1>
+  <header class="row container-fluid d-flex align-content-center" style="height:60px">
+    <h1 class="d-md-block d-none">Składnica <span class="b-logo">B</span>ootstrap 4</h1>
+    <h3 class="d-md-none d-block">Składnica <span class="b-logo">B</span>ootstrap 4</h3>
   </header>
 
-  <div class="container-fluid" style="position:fixed;top:55px;bottom:0px">
+  <div class="container-fluid" style="position:fixed;top:60px;bottom:0px">
     <div class="row h-100 flex-nowrap">
-      <div class="col-lg-2 col-md-3 col-sm-4 h-100 overflow-auto">
-        <nav class="" id="sidenav">
+      <div class="col-md-3 d-md-block d-none h-100 overflow-auto">
+        <nav id="sidenav" class="h-100">
           <ul class="nav nav-pills flex-column" style="border-right: 3px solid lightgrey;border-bottom: 3px solid lightgrey">
             <li class="nav-item"><a class="nav-link" href="#containers-card">Kontenery</a></li>
             <li class="nav-item"><a class="nav-link" href="#grids-card">Układ strony</a></li>
@@ -64,7 +65,7 @@
         </nav>
       </div>
 
-      <div class="col col-lg-10 col-md-9 col-sm-8 h-100 overflow-auto" data-spy="scroll" data-target="#sidenav" data-offset="10" style="position:relative;">
+      <div class="col-md-9 col-sm-12 h-100 overflow-auto" data-spy="scroll" data-target="#sidenav" data-offset="10" style="position:relative;">
         <div class="" id="all-cards" >
           <div class="card" id="containers-card">
             <div class="card-header">
